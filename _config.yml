@@ -3,3 +3,5 @@ description: 意識不僅無法消滅念頭, 有時還會適得其反
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
+
+markdown: kramdown
