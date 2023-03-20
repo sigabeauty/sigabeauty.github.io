@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Review of Voice Activity Detection // Siga Beauty</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Sigabeauty" />
+    <meta name="description" content="Review of Voice Activity Detection" />
+    <link rel="stylesheet" href="/css/main.min.ead1f6492242b7d93618e6840b25260f8ea1ca68dc04cc9cf1b88adcb996693b.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Review of Voice Activity Detection"/>
+<meta name="twitter:description" content="Review of Voice Activity Detection"/>
+
+    <meta property="og:title" content="Review of Voice Activity Detection" />
+<meta property="og:description" content="Review of Voice Activity Detection" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://sigabeauty.github.io/post/230217_vadreiew/" />
+<meta property="article:published_time" content="2023-02-16T16:51:30+00:00" />
+<meta property="article:modified_time" content="2023-02-16T16:51:30+00:00" />
+
+
+
+    <script src="https://cdn.bootcss.com/mermaid/8.8.0/mermaid.min.js"></script>
+    
+    <script>
+    mermaid.initialize({ theme: 'dark', startOnLoad: true });
+    </script>
+    
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [["$", "$"]],
+    },
+    displayMath: [
+      ["$$", "$$"],
+      ["\[\[", "\]\]"],
+    ],
+    svg: {
+      fontCache: "global",
+    },
+  };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://sigabeauty.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="Sigabeauty" /></a>
+      <span class="app-header-title">Siga Beauty</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/about/">About</a>
+      </nav>
+      <p>I interested in machine learning and singal processing</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/sigabeauty" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://twitter.com/jsdtwry" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>Twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Review of Voice Activity Detection</h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Feb 16, 2023
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          4 min read
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="http://sigabeauty.github.io/tags/research/">research</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>In speech signal processing, auto speech recognition (ASR) is much well known than voice activity detection (VAD), because VAD a sub modual but not a full-application directly facing user interface. Indeed, VAD is very important in any production of speech data pre-processing.</p>
+
+<div class="mermaid" align=" 
+                                center
+                            "> 
+    
+
+flowchart LR
+A(audio) --> B(VAD) --> C(ASR)
+B --> D(VPR)
+B --> E(Sound Event Detection)
+B --> F(etc...)
+
+
+</div>
+
+
+<h2 id="task-definition">Task Definition</h2>
+<p>Voice activity detection is the task of looking for voice activity in an audio stream. Basically, it should tell speech apart from noise and silence. Given input audio feature $X = [x_1, x_2, &hellip;, x_T]$, the task of VAD is the predict $Y = [y_1, y_2, &hellip;, y_T]$, each $y_i$ is the probability of speech or noise/silence in current time. Here, the definition of $X$ and $Y$ is generalized in terms of time granularity(Can represent both audio chunk, frame, etc).</p>
+<p>Based on the definition. Oh! This task seems easy enough, just a binary classification problem. But, a modern VAD should satisfy some main criteria</p>
+<ul>
+<li><strong>High quality</strong>: Enough high precision and recall, maybe separately consider in different situations.</li>
+<li><strong>Low user perceived latency</strong>: It&rsquo;s only a pre-processing step, important but cannot affect the whole pipeline latency.</li>
+<li><strong>Generalization</strong>: Robustness for all domains, audio sources, noise, quality, and SNR levels</li>
+</ul>
+<h2 id="related-works">Related Works</h2>
+<h3 id="traditional-solution">Traditional Solution</h3>
+<p>This kind of solution does not use any kind of external models, it uses signal processing methods or simple pattern recognition methods to estimate the silence and speech parts. Typically use GMM to model speech/silence frames and do iteratively estimation using algorithms like EM. This kind of solution has low latency but cannot generalize well for many situations. Indeed, it needs much parameter settings for a target situation to get usable performance. <strong>Google&rsquo;s WebRTC VAD</strong> is a kind of this method.</p>
+<h3 id="deep-solution">Deep Solution</h3>
+<p>Deep neural network (DNN) is currently widely used in many signal processing tasks. DNN-based methods all need supervised label data for training. VAD is such a hard task for human annotation, we don&rsquo;t know what time granularity to labeling and human labeling can easily introduce errors. The time granularity of labeling decide the final system granularity, but as common sense, we know human may not hear clearly, and labeling is less than 100 ms.</p>
+<p>Here are some typical DNN-based VAD</p>
+<ul>
+<li><strong>Pyannote</strong>: Pyannote is a toolkit for speaker diarization, VAD is a sub-modular in its pipeline. It use rttm-like file as a label file, randomly select a 2000 ms chunk and calculate the label for each frame in the chunk. With this processing method, it can also support speaker change point detection, overlap detection, end-to-end diarization.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># select one file at random </span>
+<span style="color:#75715e"># with probability proportional to its annotated duration</span>
+file, <span style="color:#f92672">*</span>_ <span style="color:#f92672">=</span> rng<span style="color:#f92672">.</span>choices(
+    train,
+    weights<span style="color:#f92672">=</span>[f[<span style="color:#e6db74">&#34;_annotated_duration&#34;</span>] <span style="color:#66d9ef">for</span> f <span style="color:#f92672">in</span> train],
+    k<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
+)
+
+<span style="color:#75715e"># select one annotated region at random</span>
+<span style="color:#75715e"># with probability proportional to its duration</span>
+segment, <span style="color:#f92672">*</span>_ <span style="color:#f92672">=</span> rng<span style="color:#f92672">.</span>choices(
+    file[<span style="color:#e6db74">&#34;annotated&#34;</span>],
+    weights<span style="color:#f92672">=</span>[s<span style="color:#f92672">.</span>duration <span style="color:#66d9ef">for</span> s <span style="color:#f92672">in</span> file[<span style="color:#e6db74">&#34;annotated&#34;</span>]],
+    k<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>,
+)
+
+<span style="color:#75715e"># select one chunk at random (with uniform distribution)</span>
+start_time <span style="color:#f92672">=</span> rng<span style="color:#f92672">.</span>uniform(segment<span style="color:#f92672">.</span>start, segment<span style="color:#f92672">.</span>end <span style="color:#f92672">-</span> self<span style="color:#f92672">.</span>duration)
+chunk <span style="color:#f92672">=</span> Segment(start_time, start_time <span style="color:#f92672">+</span> self<span style="color:#f92672">.</span>duration)
+</code></pre></div><ul>
+<li>
+<p><strong>NeMo</strong>: Nemo is a NN toolkit developed by Nvidia that can use for many speech and NLP model implementations. The VAD detail in their published model <strong>MARBLENET</strong>, it use 630ms chunk size for a prediction. train, val and test chunk numbers are 160,994, 20,018 and 60,906. So, nearly 28 hours data.</p>
+</li>
+<li>
+<p><strong>Silero</strong>: Silero VAD claimed it&rsquo;s trained using 13000h data, but it did not publish any training and data details, because they say their model is good enough and robust for any language in any situation. They do not need to publish their details, anyone did not need to train the model, only can use their model as a toolkit just like <strong>Google&rsquo;s WebRTC VAD</strong>. In detail, in use a transformer-liked model. Using 512, 1024, 1536 samples for 16000 sample rate and 256, 512, 768 samples for 8000 sample rate. Nearly 30ms,60ms,100ms, it&rsquo;s almost frame-level.</p>
+</li>
+</ul>
+<p>PS: Some other methods use ASR model to perform force-alignment for the training data and get a frame-level label for VAD.</p>
+<h2 id="others">Others</h2>
+<p>Time granularity is important, it determines not only the performance but the availability of downstream tasks. Using deep solution, we need to face the problem of data collection and annotation. However, VAD seems a more or less solved task due to its simplicity and abundance of data in a way, but the reality is that we hardly use it in some situations.</p>
+<h2 id="reference">Reference</h2>
+<p><a href="https://github.com/wiseman/py-webrtcvad">https://github.com/wiseman/py-webrtcvad</a><br>
+<a href="https://thegradient.pub/one-voice-detector-to-rule-them-all">https://thegradient.pub/one-voice-detector-to-rule-them-all</a><br>
+<a href="https://github.com/NVIDIA/NeMo/blob/main/tutorials/asr/Voice_Activity_Detection.ipynb">https://github.com/NVIDIA/NeMo/blob/main/tutorials/asr/Voice_Activity_Detection.ipynb</a><br>
+<a href="https://github.com/pyannote/pyannote-audio/tree/master/tutorials/models/speech_activity_detection">https://github.com/pyannote/pyannote-audio/tree/master/tutorials/models/speech_activity_detection</a></p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
