@@ -6,7 +6,17 @@
     <description>Recent content in research on Siga Beauty</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Feb 2023 16:51:30 +0000</lastBuildDate><atom:link href="http://sigabeauty.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2023 01:07:46 +0800</lastBuildDate><atom:link href="http://sigabeauty.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pretrained Foundation Models</title>
+      <link>http://sigabeauty.github.io/post/230322_pfm_review/</link>
+      <pubDate>Wed, 22 Mar 2023 01:07:46 +0800</pubDate>
+      
+      <guid>http://sigabeauty.github.io/post/230322_pfm_review/</guid>
+      <description>ChatGPT shows great performance in few-shot and zero-shot conditions, it make researchers belive large pretrain model is the right path of AI future.
+PFM (Pretrained Foundation Models), a huge data based model as a base of difference downstream tasks. Some PFM like BERT, GPT-3, MAE, DALLE-E and the recently hot ChatGPT are well know PFM, which give good initial paramters for different downstream tasks. The pretrain technique behind PFM play an important rool in application of large AI models, different from deep feature learning like CNN and RNN, GPT use transformer for deep feature learning, and use auto regressive training with large dataset.</description>
+    </item>
+    
     <item>
       <title>Review of Voice Activity Detection</title>
       <link>http://sigabeauty.github.io/post/230217_vadreiew/</link>
