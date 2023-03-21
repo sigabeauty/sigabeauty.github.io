@@ -122,10 +122,12 @@
                             "> 
     
 
-flowchart LR
-A(audio) --> B(VAD) --> C(ASR)
+flowchart
+
+A(AUDIO) --> B(VAD)
+B --> C(ASR)
 B --> D(VPR)
-B --> E(Sound Event Detection)
+B --> E(SED)
 B --> F(etc...)
 
 
